@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Varela+Round&display=swap");
+:root {
+  --fontFamily: "Varela Round", sans-serif;
+  --fontSizeNormal: 20px;
+  --fontSizeHeading: 32px;
+  --fontSizeHero: 44px;
+  --fontColorDark: #4c4c6b;
+  --fontColorLight: #9494b4;
+  --lightBlue: #e5e4ff;
+  --darkBlue: #504d98;
+  --offWhite: #f3f3fb;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+.adjust {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+.test {
+  border: solid 1px red;
+}
+
+.hero-container {
+  height: 100vh;
+  background-color: var(--lightBlue);
+  border: solid 0.1px var(--lightBlue);
+}
+.header-container {
+  margin-top: 2em;
+  border-radius: 30px;
+  height: 10vh;
+  background-color: var(--offWhite);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header-logo {
+  flex-grow: 1;
+  margin-left: 3em;
+}
+.header-logo > p {
+  font-family: var(--fontFamily);
+  font-size: var(--fontSizeHeading);
+  font-weight: bolder;
+}
+.header-logo > p > span {
+  color: var(--darkBlue);
+}
+.header-menu {
+  flex-grow: 3;
+  margin-right: 3em;
+  display: flex;
+  font-display: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+.header-menu-item {
+  cursor: pointer;
+  height: fit-content;
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: var(--fontFamily);
+  font-size: var(--fontSizeNormal);
+  font-weight: bold;
+}
+
+/* styles the contact buttons */
+.btn {
+  background-color: var(--darkBlue);
+  color: #fff;
+  height: 5vh;
+  border-radius: 35px;
+}
+
+.hero-info-container {
+  height: 75%;
+  display: flex;
+  font-display: row;
+  margin-top: 2em;
+  margin-left: 4em;
+}
+.hero-text-container {
+  flex-grow: 1;
+  font-family: var(--fontFamily);
+  color: var(--fontColorDark);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.hero-text-heading {
+  font-size: var(--fontSizeHero);
+}
+.hero-text-sub-heading {
+  font-size: var(--fontSizeNormal);
+  color: var(--fontColorLight);
+}
+.hero-btn {
+  background-color: var(--darkBlue);
+  color: #fff;
+  font-size: var(--fontSizeNormal);
+  font-weight: bold;
+  height: 7vh;
+  width: 12vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 30px;
+}
+.hero-img-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero-img-container > img {
+  width: 70%;
+  height: 70%;
+}
