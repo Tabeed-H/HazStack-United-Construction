@@ -46,6 +46,7 @@ body {
   font-family: var(--fontFamily);
   font-size: var(--fontSizeHeading);
   font-weight: bolder;
+  text-align: center;
 }
 .header-logo > p > span {
   color: var(--darkBlue);
@@ -54,14 +55,14 @@ body {
   flex-grow: 3;
   margin-right: 3em;
   display: flex;
-  font-display: row;
+  flex-direction: row;
   justify-content: flex-end;
   align-items: center;
 }
 .header-menu-item {
   cursor: pointer;
   height: fit-content;
-  width: 15%;
+  width: 18%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,6 +76,7 @@ body {
   background-color: var(--darkBlue);
   color: #fff;
   height: 5vh;
+  width: 20%;
   border-radius: 35px;
 }
 
@@ -163,4 +165,59 @@ body {
 .count-tile {
   font-size: var(--fontSizeNormal);
   color: var(--fontColorLight);
+}
+
+.serivces-container {
+  /* height: 60vh; */
+  display: flex;
+  flex-direction: column;
+}
+.section-heading {
+  font-size: var(--fontSizeHero);
+  color: var(--fontColorDark);
+  font-weight: bold;
+  font-family: var(--fontFamily);
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  margin: 1em;
+  width: 20%;
+  height: 50vh;
+  background-color: var(--darkBlue);
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-img {
+  width: 10em;
+  height: 10em;
+  background-color: var(--lightBlue);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-img > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.card-title {
+  font-family: var(--fontFamily);
+  color: #fff;
+  font-size: var(--fontSizeNormal);
+  margin-top: 1em;
+  width: 80%;
+  text-align: center;
 }

@@ -1,0 +1,116 @@
+@media only screen and (max-width: 1300px) {
+  .header-menu {
+    justify-content: space-evenly;
+  }
+  .header-menu-item {
+    width: 30%;
+  }
+  .btn {
+    height: 7vh;
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .hero-btn {
+    width: 18vw;
+  }
+  .card {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  :root {
+    --fontFamily: "Varela Round", sans-serif;
+    --fontSizeNormal: 14px;
+    --fontSizeHeading: 28px;
+    --fontSizeHero: 42px;
+    --fontColorDark: #4c4c6b;
+    --fontColorLight: #9494b4;
+    --lightBlue: #e5e4ff;
+    --darkBlue: #504d98;
+    --offWhite: #f3f3fb;
+  }
+  .hero-container {
+    height: 100vh;
+  }
+  .header-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-logo {
+    flex-grow: 0;
+    margin-left: 0em;
+  }
+  .header-menu {
+    width: 80%;
+    margin-right: 0em;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+  }
+  .header-menu-item {
+    height: 8vh;
+    width: 20%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .hero-container {
+    height: fit-content;
+  }
+  .header-menu {
+    flex-wrap: wrap;
+  }
+  .hero-info-container {
+    margin-left: 4em;
+    margin-bottom: 3em;
+  }
+  .hero-btn {
+    width: 16vw;
+  }
+  .statistics-container {
+    height: 50vh;
+  }
+  .statistics {
+    width: 100%;
+  }
+  .projects-count {
+    width: 50%;
+  }
+  .customers-count {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .header-menu-item {
+    width: 30%;
+    flex-wrap: wrap;
+  }
+  .btn {
+    height: 5vh;
+    width: 100%;
+  }
+  .hero-info-container {
+    margin-left: 2em;
+  }
+  .hero-btn {
+    width: 35vw;
+  }
+  .statistics {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .projects-count {
+    width: 100%;
+  }
+  .customers-count {
+    width: 100%;
+  }
+  .card {
+    width: 100%;
+    height: 50vh;
+  }
+}
