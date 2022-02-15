@@ -3,7 +3,7 @@
   --fontFamily: "Varela Round", sans-serif;
   --fontSizeNormal: 20px;
   --fontSizeHeading: 32px;
-  --fontSizeHero: 44px;
+  --fontSizeHero: 52px;
   --fontColorDark: #4c4c6b;
   --fontColorLight: #9494b4;
   --lightBlue: #e5e4ff;
@@ -32,11 +32,11 @@ body {
 .header-container {
   margin-top: 2em;
   border-radius: 30px;
-  height: 10vh;
   background-color: var(--offWhite);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 .header-logo {
   flex-grow: 1;
@@ -91,10 +91,11 @@ body {
   color: var(--fontColorDark);
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
 }
-.hero-text-heading {
+.hero-text-heading > div {
   font-size: var(--fontSizeHero);
+  font-weight: bold;
 }
 .hero-text-sub-heading {
   font-size: var(--fontSizeNormal);
