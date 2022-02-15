@@ -83,7 +83,7 @@ body {
   display: flex;
   font-display: row;
   margin-top: 2em;
-  margin-left: 4em;
+  margin-left: 8em;
 }
 .hero-text-container {
   flex-grow: 1;
